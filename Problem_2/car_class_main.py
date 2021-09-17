@@ -1,0 +1,18 @@
+import car_class
+year = int(input("Please enter year Model:"))
+make = input("Pleas enter the MAke model:")
+# creating an instance of a car classmethod
+obj = car_class.cars(year,make)
+obj.setaccelerate()
+obj.setaccelerate()
+obj.setaccelerate()
+obj.setaccelerate()
+obj.setaccelerate()
+print(f"The make Model is {obj.getmake()} and the year is {obj.getyear()} and the speed is {obj.getspeed()}")
+obj.setbrake()
+obj.setbrake()
+obj.setbrake()
+obj.setbrake()
+obj.setbrake()
+print("After braking...")
+print(f"The make Model is {obj.getmake()} and the year is {obj.getyear()} and the speed is {obj.getspeed()}")
